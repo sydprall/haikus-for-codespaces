@@ -2,11 +2,12 @@
 #include<stdbool.h>
 
 int main(){
+    char var1 = "p";
     int var2 =25;
-    char var1 ="p";
-    float var3 =5.08;
+    float var3 = 5.08;
+    _Bool isStudent = 1;
      
-    printf("My age is %d The first letter of my last name is: %c My height in feet is: %f", var1, var2, var3,);
+    printf("The first letter of my last name is:%c My age is: %d My height in feet is: %f I am a student: %d", var1 var2 var3 var4); 
     
 
 }
