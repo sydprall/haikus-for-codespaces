@@ -2,9 +2,9 @@
 #include<stdbool.h>
 
 int main(){
-    char var1="p";
-    int var2=25;
-    float var3=5.08;
+    char var1;
+    int var2;
+    float var3;
     bool var4=true;
 
     printf("Enter Last Initial AND Age AND Height in feet AND Are you a student? and press enter");
