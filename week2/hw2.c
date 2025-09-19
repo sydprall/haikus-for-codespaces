@@ -20,11 +20,16 @@ int main()
 
         if(num>0)
         {
-            printf("positive");
+            printf(" and positive. ");
         }
         else
         {
-            printf("negative");
+            printf(" and negative");
+        }
+
+        if (num == 0)
+        {
+            
         }
     }
 return 0;
