@@ -14,7 +14,7 @@ void main ()
         roll = rand()%6 +1;
         newposition = position + roll;
        
-        printf("Turn = %d, Die roll = %d \n", turns, roll);
+        printf("Turn = %d, Die Roll = %d, Current Position %d \n", turns, roll, newposition);
        
         if(newposition >100)
             position = position;
