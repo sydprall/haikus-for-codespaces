@@ -41,7 +41,7 @@ int main()
 
     } while (rch !=5 && rch !=10);
 
-    for(i=0;i<rch;i++)
+    for(int i=0;i<rch;i++)
     {
         printf("1. Rock 2. Paper 3. Scissors\n");
         printf("Enter users choice");
