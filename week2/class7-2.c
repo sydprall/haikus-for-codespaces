@@ -76,6 +76,7 @@ int main()
             printf("Computer Wins!\n");
             compWin++;
         }
+    }
 printf("=== Final Results ===\n");
 printf("You: %d  Computer: %d  Ties: %d", userWin, compWin, ties);
 
