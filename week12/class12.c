@@ -1,5 +1,31 @@
 #include <stdio.h>
 
+void add_two1Darray(int size1, int p[size1], int size2, int q[size2])
+{
+    int r[size1];
+
+    for(int i=0;i<size1;i++)
+    {
+        r[i]=p[i]+q[i];
+        printf("%d ", r[i]);
+    }
+}
+
+void diff_2Darray( int rows, int cols, int p[rows][cols], int q[rows][cols])
+{
+    int r[rows][cols];
+
+    for(int i=0;i<rows;i++)
+    {
+        for (int j=0;j<cols;j++)
+        {
+            r[i][j] = p[i][j] - q[i][j];
+            printf("%d", r[i][j]);
+        }
+        printf("\n");
+    }
+}
+
 int main ()
 {
     int square_arr[10], cube_arr[10], even_arr[3][3], odd_arr[3][3];
@@ -57,5 +83,9 @@ int main ()
         }
         printf("\n");
     }
+
+add_two1Darray(10,square_arr,10,cube_arr);
+diff_2Darray(3,3,even_arr,odd_arr);
+
 return 0;
 }
